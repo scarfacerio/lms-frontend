@@ -8,7 +8,7 @@ import { GiMoneyStack } from 'react-icons/gi'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom';
 
-import HomeLayout from '../../layouts/HomeLayout'
+import HomeLayout from '../../Layouts/HomeLayout'
 import { deleteCourse, getAllCourse } from '../../redux/slices/CourseSlice';
 import { getPaymentsRecord } from '../../redux/slices/RazorpaySlice';
 import { getStats } from '../../redux/slices/StatSlice';

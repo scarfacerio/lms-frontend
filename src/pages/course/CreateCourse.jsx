@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 
-import HomeLayout from '../../layouts/HomeLayout'
+import HomeLayout from '../../Layouts/HomeLayout'
 import { createCourse } from '../../redux/slices/CourseSlice';
 function CreateCourse() {
     const dispatch = useDispatch();
