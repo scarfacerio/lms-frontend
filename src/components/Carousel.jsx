@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import CarouselDiv from "../components/CarouselDiv";
+import CarouselDiv from "../components/CarouselDiv.jsx";
 import { celeb } from "../constants/celebData.js";
 
 function Carousel() {
